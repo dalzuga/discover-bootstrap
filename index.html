@@ -43,18 +43,26 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">Acme inc.</a>
-          <!-- <a class="navbar-brand" href="#">Home</a>
-          <a class="navbar-brand" href="#">About</a>
-          <a class="navbar-brand" href="#">Contact</a>
-          <a class="navbar-brand" href="#">Services</a> -->
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav nav-pills">
             <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Services</a></li>
+            <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Dropdown <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Financial services</a></li>
+                <li><a href="#">Real estate</a></li>
+                <li><a href="#">Insurances</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Pharmaceuticals</a></li>
+              </ul>
+            </li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
