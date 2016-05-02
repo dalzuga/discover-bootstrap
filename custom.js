@@ -10,11 +10,9 @@ $(document).ready(function() {
                         alert("New value is " + value);
                 })
         }
-
-        // for color-picker functionality
-        // $('body').css("background-color", "yellow");
 });
 
+// for color-picker functionality
 function setBackgroundColor(picker) {
   document.getElementsByTagName('body')[0].style.background = '#' + picker.toString()
 }
